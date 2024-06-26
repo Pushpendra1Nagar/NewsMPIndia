@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:rgb(79, 76, 76);
+}
+nav{
+    display: flex;
+    height: 25px;
+    background-color: lavender;
+    justify-content: space-between;
+    color: black;
+    padding: 16px;
+    border-radius: 10px;
+    
+}
+.logo {
+    display: flex;
+    align-items: center;
+    color: black;
+    cursor: pointer;
+
+}
+.logo li{
+    list-style: none;
+    margin-inline: 50px;
+}
+.logo li:hover{
+    color: blue;
+    cursor: pointer;
+    border-bottom: 2px solid lavender;
+}
+.image{
+    
+    margin-left: 1px;
+    height: 50px;
+    width: 50px;
+}
+.name{
+    margin-left: 10px;
+}
+ .searchBar{
+    display: flex;
+    border: black;
+    
+ }
+ .searchBar input{
+    width: 220px;
+    height: 5px;
+    padding: 10px;
+    font-size: 14px;
+    margin-inline: 5px;
+    border: none;
+ }
+ .searchBar button{
+    display: flex;
+    background-color: rgb(132, 157, 249);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    height: 25px;
+    width: 60px;
+    padding: 4px;
+}
+.cardData{
+    display: grid;
+    justify-content: center;
+    width: 80%;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    margin: auto;
+    margin-top: 50px;
+}
+.card{
+    width: 300px;
+    background-color: white;
+    padding: 11px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.card img{
+    width: 100%;
+    border-radius: 3px;
+
+}
+.card h3{
+    margin-top: 10px;
+    padding: 3px;
+}
+.card h3 :hover{
+    color: blue;
+}
+.card p{
+    margin-top: 5px;
+    padding: 2px;
+}
+.category{
+    position: absolute;
+    color: white;
+    margin-top: 65px;
+    margin-left: 128px;
+}
+.copyright{
+    background-color: lavender;
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+    height: 10px;
+
+}
+@media only screen and (max-width:1020px){
+    li{
+        display: none;
+    }
+    
+    
+}
+@media only screen and (max-width:530px){
+    nav{
+        display: flex;
+        height: 50px;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .logo{
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .searchBar{
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .category{
+        display: none;
+    }
+   
+    
+}
+@media only screen and (max-width:750px){
+    .category{
+        margin-left: 70px;
+        margin-top: 70px;
+
+    }
+    @media only screen and (min-width: 300px){
+        .category{
+            display: flex;
+            margin-top: 150px;
+        }
+}

@@ -1,0 +1,10 @@
+
+API google news --- https://newsapi.org/v2/everything?q=
+key --- ae6ec566b43f40539a917d9c90c5d101
+
+
+API Gnews --- https://gnews.io/api/v4/top-headlines?country=india&apikey=${keyname....}
+key --- b904a324d483e6655dfc6747190c7c87
+
+API bing (microsoft) --- https://bing-news-search1.p.rapidapi.com/news?
+ket --- e06c989db9msh882940ddb0d1ef2p1b80bajsn8b94c1777543
